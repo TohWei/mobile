@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+
+	<!--- Custom area -->
+	<data name="MasterPassword" xml:space="preserve">
+		<value>主密码</value>
+		<comment></comment>
+	</data>
+
+	<data name="NewUser" xml:space="preserve">
+		<value>新用户？</value>
+		<comment></comment>
+	</data>
+
+	<data name="CreateMasterPassword" xml:space="preserve">
+		<value>请输入主密码</value>
+		<comment></comment>
+	</data>
+
+	<data name="Start" xml:space="preserve">
+		<value>开始</value>
+		<comment></comment>
+	</data>
+
+	<data name="SendPasswordToYourEmail" xml:space="preserve">
+		<value>你的主密码将发送到您的电子邮件地址</value>
+		<comment></comment>
+	</data>
+
+	<data name="YourEmailAddress" xml:space="preserve">
+		<value>电子邮址</value>
+		<comment></comment>
+	</data>
+
+	<data name="MaxChars" xml:space="preserve">
+		<value>限制最多三十个字</value>
+		<comment></comment>
+	</data>
+
+	<!-- Error message -->
+	<data name="MasterPasswordSet" xml:space="preserve">
+		<value>主密码设置成功</value>
+		<comment></comment>
+	</data>
+	<data name="MasterPasswordSetDesc" xml:space="preserve">
+		<value>我们已经将你的主密码的副本寄到你的电子邮件。请检看您的电子邮件。</value>
+		<comment></comment>
+	</data>
+	<data name="NoInternetConnection" xml:space="preserve">
+		<value>没有网络连接</value>
+		<comment></comment>
+	</data>
+
+	<!-- Navigation --> 
+	<data name="NavHome" xml:space="preserve">
+		<value>主页</value>
+		<comment></comment>
+	</data>
+
+	<data name="NavAddEntry" xml:space="preserve">
+		<value>添加项目</value>
+		<comment></comment>
+	</data>
+
+	<data name="NavLogout" xml:space="preserve">
+		<value>退出</value>
+		<comment></comment>
+	</data>
+
+	<!-- Form -->
+	<data name="FormAccountName" xml:space="preserve">
+		<value>户口名字</value>
+		<comment></comment>
+	</data>
+	<data name="FormUserName" xml:space="preserve">
+		<value>用户名字</value>
+		<comment></comment>
+	</data>
+	<data name="FormPassword" xml:space="preserve">
+		<value>密码</value>
+		<comment></comment>
+	</data>
+	<data name="FormSave" xml:space="preserve">
+		<value>保存</value>
+		<comment></comment>
+	</data>
+	<data name="FormUpdate" xml:space="preserve">
+		<value>更改</value>
+		<comment></comment>
+	</data>
+	<data name="FormDelete" xml:space="preserve">
+		<value>删除</value>
+		<comment></comment>
+	</data>
+
+
+	<data name="characters" xml:space="preserve">
+		<value>字</value>
+		<comment></comment>
+	</data>
+	<data name="notes" xml:space="preserve">
+		<value>备注</value>
+		<comment></comment>
+	</data>
+
+	<!-- Features note -->
+	<data name="featureNote1" xml:space="preserve">
+		<value>100％ 可在离线模式下操作（除了在注册过程中需上网，以便发送您的主密码的副本）。</value>
+		<comment></comment>
+	</data>
+	<data name="featureNote2" xml:space="preserve">
+		<value>资料绝对被保护，并采用最新的“三重DES技术”加密。</value>
+		<comment></comment>
+	</data>
+	<data name="featureNote3" xml:space="preserve">
+		<value>加密的数据只保存在您的手机。</value>
+		<comment></comment>
+	</data>
+	<data name="featureNote4" xml:space="preserve">
+		<value>卸载这个应用程序也将同时会删除整个数据。</value>
+		<comment></comment>
+	</data>
+	<data name="featureNote5" xml:space="preserve">
+		<value>谢谢你的支持。By JJJC.</value>
+		<comment></comment>
+	</data>
+</root>

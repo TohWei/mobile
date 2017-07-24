@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<!--- Custom area -->
+	<data name="MasterPassword" xml:space="preserve">
+		<value>Master Password</value>
+		<comment></comment>
+	</data>
+
+	<data name="NewUser" xml:space="preserve">
+		<value>New User?</value>
+		<comment></comment>
+	</data>
+
+	<data name="CreateMasterPassword" xml:space="preserve">
+		<value>Create master password</value>
+		<comment></comment>
+	</data>
+
+	<data name="Start" xml:space="preserve">
+		<value>START</value>
+		<comment></comment>
+	</data>
+
+	<data name="SendPasswordToYourEmail" xml:space="preserve">
+		<value>A copy of your master password will be sent to your email account.</value>
+		<comment></comment>
+	</data>
+
+	<data name="YourEmailAddress" xml:space="preserve">
+		<value>Your email address</value>
+		<comment></comment>
+	</data>
+
+	<data name="MaxChars" xml:space="preserve">
+		<value>Max 30 characters</value>
+		<comment></comment>
+	</data>
+
+	<!-- Error message -->
+	<data name="MasterPasswordSet" xml:space="preserve">
+		<value>Master Password Set</value>
+		<comment></comment>
+	</data>
+	<data name="MasterPasswordSetDesc" xml:space="preserve">
+		<value>Please check your email for the copy of your master password.</value>
+		<comment></comment>
+	</data>
+	<data name="NoInternetConnection" xml:space="preserve">
+		<value>No Internet Connection.</value>
+		<comment></comment>
+	</data>
+
+
+	<!-- Navigation --> 
+	<data name="NavHome" xml:space="preserve">
+		<value>HOME</value>
+		<comment></comment>
+	</data>
+
+	<data name="NavAddEntry" xml:space="preserve">
+		<value>ADD ENTRY</value>
+		<comment></comment>
+	</data>
+
+	<data name="NavLogout" xml:space="preserve">
+		<value>LOGOUT</value>
+		<comment></comment>
+	</data>
+
+	<!-- Form -->
+	<data name="FormAccountName" xml:space="preserve">
+		<value>Account Name</value>
+		<comment></comment>
+	</data>
+	<data name="FormUserName" xml:space="preserve">
+		<value>User Name</value>
+		<comment></comment>
+	</data>
+	<data name="FormPassword" xml:space="preserve">
+		<value>Password</value>
+		<comment></comment>
+	</data>
+	<data name="FormSave" xml:space="preserve">
+		<value>Save</value>
+		<comment></comment>
+	</data>
+	<data name="FormUpdate" xml:space="preserve">
+		<value>Update</value>
+		<comment></comment>
+	</data>
+	<data name="FormDelete" xml:space="preserve">
+		<value>Delete</value>
+		<comment></comment>
+	</data>
+
+	<data name="characters" xml:space="preserve">
+		<value> character(s)</value>
+		<comment></comment>
+	</data>
+	<data name="notes" xml:space="preserve">
+		<value>single line notes</value>
+		<comment></comment>
+	</data>
+
+	<!-- Features note -->
+	<data name="featureNote1" xml:space="preserve">
+		<value>100% work in offline mode. Apart from sending a copy of your master password during the registration.</value>
+		<comment></comment>
+	</data>
+	<data name="featureNote2" xml:space="preserve">
+		<value>Data are protected and encrypted with the latest 'Triple DES technologies'.</value>
+		<comment></comment>
+	</data>
+	<data name="featureNote3" xml:space="preserve">
+		<value>Enctypted data are kept in your device only.</value>
+		<comment></comment>
+	</data>
+	<data name="featureNote4" xml:space="preserve">
+		<value>Uninstall the app will delete the whole data.</value>
+		<comment></comment>
+	</data>
+	<data name="featureNote5" xml:space="preserve">
+		<value>Thank you. Developed By JJJC.</value>
+		<comment></comment>
+	</data>
+
+</root>
