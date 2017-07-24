@@ -24,8 +24,8 @@ namespace AnXin.Droid
 		public void SendMail()
 		{
 			var message = new MimeMessage ();
-			message.From.Add(new MailboxAddress("Jeff Lim", "afoofacaci@gmail.com"));
-			message.To.Add (new MailboxAddress ("Jeff", "jeff.wei-lim@artesiansolutions.com"));
+			message.From.Add(new MailboxAddress("Jeff Lim", "sender@gmail.com"));
+			message.To.Add (new MailboxAddress ("Jeff", "receiver@gmail.com"));
 			message.Subject = "Test SMTP client";
 			message.Body = new TextPart("plain"){
 				Text = @"Hello jeff"
@@ -53,11 +53,11 @@ namespace AnXin.Droid
 			try{
 				MailMessage mail = new MailMessage ();
 				System.Net.Mail.SmtpClient SmtpServer = new System.Net.Mail.SmtpClient ("smtp.gmail.com");
-				mail.From = new MailAddress ("afoofacaci@gmail.com");
-				mail.To.Add ("jeff.wei-lim@artesiansolutions.com");
+				mail.From = new MailAddress ("sender@gmail.com");
+				mail.To.Add ("receiver@artesiansolutions.com");
 				mail.Body = "Test SMTP client";
 				SmtpServer.Port = 587;
-				SmtpServer.Credentials = new System.Net.NetworkCredential ("afoofacaci@gmail.com", "");
+				SmtpServer.Credentials = new System.Net.NetworkCredential ("sender@gmail.com", "");
 				SmtpServer.EnableSsl = true;
 				ServicePointManager.ServerCertificateValidationCallback=delegate(object sender, X509Certificate certificate, X509Chain X509Chain, SslPolicyErrors sslPolicyErrors) 
 				{
@@ -79,14 +79,14 @@ namespace AnXin.Droid
 
 			try{
 			using (MailMessage mail = new MailMessage ()) {
-				mail.From = new MailAddress ("aj58mmx@yahoo.com","JJJC");
+				mail.From = new MailAddress ("sender@yahoo.com","JJJC");
 				mail.To.Add (receiverEmailAddress);
 				mail.Subject = "AnXin app - You have setup an master account in AnXin app.";
 				mail.Body = "You master pass in AnXin app is: " + masterPass;
 
 				using (System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient (smtpAddress, portnumber)) 
 				{
-					smtp.Credentials = new NetworkCredential ("aj58mmx@yahoo.com", "1q2w3e4r");
+					smtp.Credentials = new NetworkCredential ("test@yahoo.com", "testpassword");
 						smtp.EnableSsl = enableSSL;
 					smtp.Send (mail);
 				}
